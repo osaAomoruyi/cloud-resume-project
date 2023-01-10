@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <script>
+        fetch('https://8hsdocowm9.execute-api.us-east-1.amazonaws.com/Prod/put')
+            .then(() => fetch('https://8hsdocowm9.execute-api.us-east-1.amazonaws.com/Prod/get'))
+            .then(response => response.json())
+            .then((data) => {
+                document.getElementById('replaceme').innerText = data.count
+            })
+    </script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+     <div class="container">
+        
+        <div class="right_side">    
+            <div class="profileText"> 
+                <h2>Osa A Omoruyi<br><span>DevOps Engineer</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h3>Address: <span>Berkshire, UK</span></h3> 
+            </div>
+            <div class="emailInfo">
+                <h3>E-mail: <span>ao.omoruyi@gmail.com</span></h3>
+            </div>
+            <div class="phoneInfo">
+                <h3>Phone: <span>+ 44 7535667640</span></h3>
+
+            </div>
+            <br>
+            <div class="profileDetails">
+                  <p> AWS Certified Solutions Architect with over 10+ years experience in Information Technology 
+                    spanning across a broad range of industries such as E-Commerce, Retails, Financial Services, 
+                    Airline, Insurance, Oil and Gas. I have hands-on and production expertise in application 
+                    configuration, code compilation, packaging, building, automating, managing, and releasing code 
+                    from one environment to another and deploying to servers using CI/CD best practices. I possess 
+                    strong analytical, problem-solving, communication, and project management skills. Now seeking 
+                    next rewarding and changing opportunity in a successful customer focused team.</p>
+                </div>
+             <br>
+             <p class="head">Skills</p>
+             <div class="container_2">
+                <p class="skillsDetails"><strong>Networking -</strong> VPC, Route-53, DNS, SSH</p>
+                <p class="skillsDetails"><strong>Server Platforms - </strong>RHEL/CentOS 8, Linux, Ubuntu, AWS-Linux Ticket </p>
+                <p class="skillsDetails"><strong>Application Servers - </strong>Tomcat, Apache httpd /p>
+                <p class="skillsDetails"><strong>Tracking Tools - </strong>JIRA, HP ALM (Quality Centre), Rally</p>
+                <p class="skillsDetails"><strong>Databases - </strong> AWS RDS, AWS RDS Aurora, MySQL, PostgreSQL,Memcached& DynamoDB</p>
+                <p class="skillsDetails"><strong>Programming Languages -</strong> Python, Bash, Shell Scripts, Java</p>
+                <p class="skillsDetails"><strong>Containerization Tool -</strong>  Docker, Docker Compose, AWS ECS, AWS, Kubernetes</p>
+                <p class="skillsDetails"><strong>Configuration Management - </strong>Ansible, AWS Systems Manager Parameter Store, AWS Systems Manager SSM Agent</p>
+                <p class="skillsDetails"><strong>Infrastructure As Code - </strong>CloudFormation, Terraform, Vagrant,AWS Lambda </p>
+                <p class="skillsDetails"><strong>Build And Release Management - </strong> CI/CD, Git, Subversion, Jenkins, Jenkins Pipeline, Maven, Artifactory, Ant, TortoiseSVN</p>
+                <p class="skillsDetails"><strong>Project Management - </strong>Agile, Scrum, Kanban & Waterfall</p>
+                <p class="skillsDetails"><strong>Web Development -</strong>  HTML, CSS, Javascript, jQuery </p>
+                <p class="skillsDetails"><strong>Automation -</strong> Selenium, TestNg, JUnit </p>
+                <p class="skillsDetails"><strong>Storage -</strong> AWS S3, AWS EBS, AWS EFS, NFS </p>
+                <p class="skillsDetails"><strong>Virtualisation-</strong>  AWS EC2, AWS EC2 Auto Scaling Groups, VirtualBox </p>
+                <p class="skillsDetails"><strong>Other technologies -</strong> <strong>Monitoring: </strong>CloudWatch, <strong>Load Balancers: </strong> 
+                    AWS ELB, AWS ALB,nginx </p>
+ 
+                    <br>
+             </div>
+             <p class="head_2">Work History</p> 
+                  <br>
+                <div class="year_company">
+                    <p>2022-01- <br>Present</p>
+            
+        </div>
+        <div class="container_3">
+            <div class="work_Role">
+            <h2>DevOps Engineer, <span><i>CBA, UK</i></span></h2>
+        </div>
+            <br>
+           
+             <li>Optimize software release efficiency up to 50% by creating CI/CD pipelines that automatically build, scan, test, and deploy software, which improves time-to-market</li>
+             <li>Worked on Docker container to create Docker images for different environment</li>
+             <li><span>Integrated process for release management, automated code deployment,configuration management,and deploying</span> </li>
+             <li>Used shell scripts for day to day activities and tasks for automating</li>
+             <li>Automated Infrastructure provisioning on AWS using Terraform & Ansible</li>            
+             <li>Provisioning EKS, ASGs, Cloudwatch metrics, S3, RDS, Route53 records, VPCs Security
+                 Groups etc</li>
+             <li>Experience with Kuberenetes and Helm for containers orchestration</li>
+             <li>Experience using Ansible and Ansible Tower as Configuration management tools, to
+                 maintain Roles, Inventory Files and Groups Variables</li>
+             <li>Deployed the application to Tomcat Application Server and static content to Apache Web Server</li>
+             <li>Developing and maintaining terraform configuration files and modules to support infrastructure as code in AWS and also manage multiple environments from Dev to producing Terraform “tfvars” and “workspaces” across multiple projects</li>
+             <li>Hands on experience in Branching, Merging, and Pushing using GIT, using webhooks for integrating with continuous Integration tools like Jenkins</li>
+             <li>Experience configuring and automating AWS web access firewall (WAF) using terraform on our microservices infrastructure ensuring security loopholes are tightened</li>
+             <li>Migration of monolithic applications to microservices using Docker containers</li> 
+          </div>
+             <br>
+        <div class="year_company">
+            <p>2021-12 - <br>2020-11</p>
+        </div>
+        <div class="container_3">
+            <div class="work_Role">
+            <h2>DevOps Support Engineer, <span><i>Strom Global Services Ltd</i></span></h2>
+        </div>
+            <br>
+            <li>Experience in creating Virtual Machine Templates and deploying virtual machines templaies and allocating resources</li>
+            <li>Automated Set up of multi tier application locally using bash scripts</li>
+            <li>Modified application properties file to set up application services</li>
+            <li>App Build, Deploy and Verification</li>
+            <li>Performing daily use of GitHub - repository management for version control</li>
+            <li>Extensively worked with automation tools such as Jenkins to implement the Build and Release Automation </li> 
+            <li>Experience in Build and Deployment of Java, .NET applications on to different environments such as Development, QA and UAT 
+                which includes designing, development, and implementation </li>
+            <li>Proactive monitoring of the infrastructure </li>
+            <li>Responsible for S3 buckets creation, policies and the IAM roles based on policies </li> 
+            <li>Installed applications on AWS EC2 instances using Amazon Web Services (Linux) and
+                configuring launched instances with respect to specific application and regions</li> 
+            <li>Utilized DevOps methodologies and worked with application developers to guide
+                the development and implementation of Cloud applications, systems and processes</li>  
+          </div>
+             <br>
+        <div class="year_company">
+            <p>2020-10 - <br>2012-11</p>
+        </div>
+
+        <div class="container_3">
+            <div class="work_Role">
+             <h2>QA Lead, <span><i>American Airlines</i></span></h2>
+           </div>
+           <li></li>  
+           <li>Integrated Git with Jenkins to develop a CI pipeline as part of efforts to implement continuous integration (CI) and continuous delivery (CD)
+            process for testing and deploying American Airlines application to various environments including production</li>  
+           <li>Created Private Virtual Cloud (VPC) and associated services on AWS as part of implementing environments that supports DEV, 
+            TEST and PROD in American Airlines pilot cloud migration project of some AA applications</li>   
+           <li>Building and editing terraform scripts to manage infrastructure as Code (IaC) on AWS</li> 
+           <li>Configured Docker, created custom Docker container, images, tagging and pushed the images.</li> 
+           <li>Led planning and testing efforts for various application, collaborating with onsite, offshore teams and vendors</li>
+           <li>Developed, implemented, and monitored various testing metrics and reports to capture testing results</li> 
+           <li>Managed 4-member, offshore team located in Boston and Tokyo</li>  
+           <li>As <strong>Manager, DCX</strong><i>(2014-2016)</i>,I managed the American Airlines/US Airways Merger from American 
+               Airlines International pespective and was responsible for Project initiation/proposals, project delivery, 
+               business liaison/stakeholder management and post implementation review</li>
+           <li>Setting budgets and agreeing project time scales and deadlines with clients, holding weekly 
+            internal meetings on progress, and providing status reports. </li>  
+           <li>Managing various teams to ensure that milestones are achieved within agreed time frames </li>  
+           <li>Ensuring effective quality control processes are in place to monitor deliverables produced </li>  
+           <li>Responsible for identifying, analyzing, measuring, and managing project risks</li> 
+           <li>Discussing and finalizing effort estimates from Development and QA resources </li>   
+           <li>As <strong>QA Lead, DCX</strong><i>(2012-2014)</i>,developed a structure to improve QA actives in line with QA best practices </li>  
+           <li>Developed a Hybrid Framework using Keyword and Data-Driven model with TestNG as the controller and Selenium WebDriver 
+            for test automation</li>  
+           <li>Integrated the project with JENKINS for Continious Integration<strong>(CI)</strong></li>  
+           <li>Configured JENKINS to scheduled nightly builds to proactively check the health of the aa.com international applications.</li>  
+           <li>Used TestNG Listener to generate automatic response on Test failure, Skip, and Success</li>  
+           <li>Used ReportNG and ExtentReport for generating Test reports</li> 
+           <li>Created BATCH scripts to execute test cases from command line tool</li>
+           <li>Developed, executed, and maintained over 210 selenium automation scripts for business-critical applications</li>
+           <li>Created various generic methods for capturing SCREENSHOTS, sending E-MAIL, reading, and writing EXCEL files and generating LOGS</li>
+           <li>Created custom methods for handling FRAMES, MULTIPLE WINDOW, LINKS, POP-UP, and other WEB ELEMENTS </li>  
+        </div>
+        <br>
+        <p class="head">Education</p>
+        <br>
+    
+        <div class="year_company">
+            <p>2022</p>
+        </div>
+        <div class="container_4">
+            <div class="work_Role">
+            <h4>AWS Certified Solutions Architect</h4>
+        </div>   
+        </div>
+        <div class="year_company">
+            <p>2009</p>
+        </div>
+        <div class="container_4">
+            <div class="work_Role">
+            <h4>M.SC: Information Technology with e-Business<br><span><i>Greenwich University, London, UK</i></span></h4>
+        </div>
+        
+     </div>
+     <div class="year_company">
+        <p>2007</p>
+    </div>
+    <div class="container_4">
+        <div class="work_Role">
+        <h4>ISEB Foundation Certificate in Software Testing</h4>
+    </div>
+    
+    </div>
+    <div class="year_company">
+        <p>2001</p>
+    </div>
+    <div class="container_4">
+        <div class="work_Role">
+        <h4>B.SC: Geography/Regional Planning<br><span><i>University of Benin</i></span></h4>
+    </div>
+   <br>
+        <div class="d-flex flex-row-reverse">
+            <div class="p2">View Count : <span id="replaceme"> </span></div>
+            <div id="counter" class="bg-primary text-white p2"></div>
+        </div> 
+   
+  </body>
+</html>

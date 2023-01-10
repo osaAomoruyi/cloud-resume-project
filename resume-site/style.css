@@ -1,0 +1,276 @@
+@import url('https://fonts.googleis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  background: lightgrey;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 0px solid rgba(255,255,255,0.2);
+}
+.profileText h2
+{
+    color: navy;
+    font-size: 2.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+
+}
+
+.profileText h2 span
+{
+    color: black;
+    font-size: 0.5em;
+    font-weight: 400;
+    float: left;
+  
+}
+.contactInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);  
+}
+.contactInfo h3
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 2px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 600;
+}
+.contactInfo h3 span
+{
+    font-size: 0.9em;
+    font-weight: 400;
+     
+}
+.emailInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);  
+}
+.emailInfo h3
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 2px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 600;
+}
+.emailInfo h3 span
+{
+    font-size: 0.9em;
+    font-weight: 400;
+     
+}
+.phoneInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);  
+}
+.phoneInfo h3
+{
+    color: black;
+    font-size: 1em;
+    margin-top: 2px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 600;
+}
+.phoneInfo h3 span
+{
+    font-size: 0.9em;
+    font-weight: 400;    
+}
+.profileDetails
+{
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: ipx;  
+  margin-bottom: 10px;
+}
+.skillsInfo
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.skillsInfo h2
+{
+    color: black;
+    font-size: 1.6em;
+    margin-top: 5px;
+    text-transform: none;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    float: left;
+}
+.head
+{
+    color: #bcac7c;
+    font-size: 1.6em;
+    margin-top: 10px;
+    text-transform: none;
+    font-weight: 600;
+    line-height: 1.4em;  
+}
+.container_2
+{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 300px;
+    background: #fff;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skillsDetails
+{
+  
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: ipx;  
+  margin-bottom: 7px; 
+}
+/*
+.box
+{
+    margin: 20px;
+    float: left;  
+}
+*/
+.head_2
+{
+    color: #bcac7c;
+    font-size: 1.6em;
+    margin-top: 10px;
+    text-transform: none;
+    font-weight: 600;
+    line-height: 1.4em; 
+    margin-bottom: 10px; 
+}
+.year_company
+{
+    
+    float: left;
+    margin-bottom: 10px;
+    
+}
+.container_3
+{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 300px;
+    background: white;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.work_Role h2
+{
+    color: black;
+    font-size: 1.6em;
+    font-weight: 700; 
+    margin-top: 10px;
+}
+.work_Role h2 span
+{
+    color: black;
+    font-size: 0.6em;
+    font-weight: 400; 
+}
+.container_4
+{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    background: #fff;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.work_Role h4
+{
+    color: black;
+    font-size: 1.4em;
+    font-weight: 600; 
+    margin-top: 10px;
+}
+.work_Role h4 span
+{
+    color: black;
+    font-size: 0.6em;
+    font-weight: 400; 
+}
+.d-flex flex-row-reverse
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 20px;
+    background: white;
+    margin: 5px;
+    margin-right: auto;    
+}
+.p2
+{
+    float: right; 
+    margin: 5px 
+}
