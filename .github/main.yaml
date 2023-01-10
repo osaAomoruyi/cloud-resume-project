@@ -1,7 +1,7 @@
 name: main
 on: push
 env:
-  GO_VERSION: 1.15.x
+  GO_VERSION: 1.19.x
 
 jobs:
   test-infra:
